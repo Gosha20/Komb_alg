@@ -74,4 +74,3 @@ read_file()
 w, perents = dijkstra(n, point_from, matrix)
 path = find_path(point_from, point_to, perents)
 write_file(path, w[point_to])
-
